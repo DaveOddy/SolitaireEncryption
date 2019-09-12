@@ -2,9 +2,26 @@ package cards
 
 data class PlayingCard(val suit: Suit, val faceValue: FaceValue) : Card() {
 
+    companion object {
+        private val LETTERS_IN_ALPHABET = 26
+        private val ASCII_A = 65
+    }
+
+
     override fun cardValue() = this.suit.offset + this.faceValue.value
 
+    override fun letterValue() : String {
+        var letterValue = cardValue()
+        if (letterValue > LETTERS_IN_ALPHABET) {
+            letterValue = letterValue - LETTERS_IN_ALPHABET
+        }
+
+        val asciiValue = letterValue + ASCII_A - 1
+        return Character.toString(asciiValue.toChar())
+    }
+
     override fun toString() = "${this.cardValue()}"
+
 
     enum class Suit(val offset: Int) {
         Clubs(0), Diamonds(13), Hearts(26), Spades(39)

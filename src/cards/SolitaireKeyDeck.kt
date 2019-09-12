@@ -2,15 +2,6 @@ package cards
 
 class SolitaireKeyDeck(loader: DeckLoader) : Deck(loader) {
 
-    companion object {
-
-        private val LETTERS_IN_ALPHABET = 26
-
-        private val ASCII_A = 65
-    }
-
-
-
     fun getKeyStream(size: Int) : String {
         val builder = StringBuilder()
         while (builder.length < size) {
@@ -102,13 +93,6 @@ class SolitaireKeyDeck(loader: DeckLoader) : Deck(loader) {
             return ""
         }
 
-        val letterCard = item.card as PlayingCard
-        var letterValue = letterCard.cardValue()
-        if (letterValue > LETTERS_IN_ALPHABET ) {
-            letterValue = letterValue - LETTERS_IN_ALPHABET
-        }
-        val asciiValue = letterValue + ASCII_A - 1
-
-        return Character.toString(asciiValue.toChar())
+        return item.card.letterValue()
     }
 }
