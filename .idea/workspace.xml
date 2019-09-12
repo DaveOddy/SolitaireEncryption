@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/cards/Deck.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="715">
-              <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+              <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -60,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/tests/SolitaireKeyDeckTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="e#15#123#0" expanded="true" />
               </folding>
@@ -569,9 +569,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests_in_SolitaireEncryption - 2019.09.09 at 20h 15m 53s.xml">
-      <configuration name="tests in SolitaireEncryption" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="tests_in_SolitaireEncryption - 2019.09.09 at 20h 24m 50s.xml">
       <configuration name="tests in SolitaireEncryption" configurationId="JUnit" />
     </history-entry>
@@ -597,6 +594,9 @@
       <configuration name="tests in SolitaireEncryption" configurationId="JUnit" />
     </history-entry>
     <history-entry file="tests_in_SolitaireEncryption - 2019.09.11 at 17h 06m 27s.xml">
+      <configuration name="tests in SolitaireEncryption" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="tests_in_SolitaireEncryption - 2019.09.11 at 17h 10m 51s.xml">
       <configuration name="tests in SolitaireEncryption" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -666,7 +666,7 @@
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#15#76#0" expanded="true" />
+            <element signature="e#15#76#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,7 +884,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="89" lean-forward="false" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
           <folding>
-            <element signature="e#15#76#0" expanded="true" />
+            <element signature="e#15#76#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -894,7 +894,7 @@
         <state relative-caret-position="315">
           <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding>
-            <element signature="e#15#113#0" expanded="true" />
+            <element signature="e#15#113#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -978,7 +978,7 @@
     <entry file="file://$PROJECT_DIR$/src/cards/Deck.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
-          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -986,7 +986,7 @@
     <entry file="file://$PROJECT_DIR$/src/tests/SolitaireKeyDeckTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="e#15#123#0" expanded="true" />
           </folding>
