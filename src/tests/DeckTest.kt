@@ -312,16 +312,6 @@ class DeckTest {
     }
 
 
-    @Test
-    fun getKeyString() {
-
-        val deck = Deck(UnKeyedDeckLoader())
-        val keyString = deck.getKeyStream(25)
-
-        assertEquals("DWJXHYRFDGTMSHPUURXJZYWYH", keyString)
-    }
-
-
     private fun getNoCardsDeckLoader() : Deck.DeckLoader {
         return object : Deck.DeckLoader {
             override fun requestCard(): Card? {
